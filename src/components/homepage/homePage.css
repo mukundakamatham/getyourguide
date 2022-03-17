@@ -36,6 +36,9 @@ position: relative;
     height: 100%;
     border-radius: 5rem;
     border: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
     padding-left: 10%;
 }
 textarea:focus, input:focus{
@@ -81,11 +84,11 @@ top:12px
      position: absolute;
      top: 16vh;
      vertical-align: baseline;
-     padding-left: 10px;
+     padding-left: 35px;
      align-items: flex-start;
      align-self: flex-start;
      color: #fff;
-     font-size: 4.1rem;
+     font-size: 4rem;
      font-weight: 700;
      line-height: 4.25rem;;
      width: 65%;
