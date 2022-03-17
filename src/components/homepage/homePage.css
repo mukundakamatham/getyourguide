@@ -1,0 +1,92 @@
+.heroimg {
+position: relative;
+}
+
+.heroimg img{
+    width: 100%;
+    height:80vh;
+    border-bottom: 10px solid #f53;
+}
+.hero_search{
+    position: absolute;
+    height: 8vh;
+    border-radius: 5rem;
+    background-color:white;width: 45%;
+    align-self: center;
+    left: 22%;
+    top:4vh;
+}
+#search_but{
+    position: absolute;
+    height: 8vh;
+    border-radius: 5rem;
+    left: 68%;
+    top:4vh;
+    width: 12vw;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.375rem;
+    padding: 9px 24px;
+    align-self: center;
+ 
+ 
+}
+.search{
+    width: 90%;
+    height: 100%;
+    border-radius: 5rem;
+    border: none;
+    padding-left: 10%;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.hero_search i{
+position: absolute;
+
+width:30px;
+font-size :24px;
+left: 7px;
+top:12px
+}
+
+::-webkit-input-placeholder {
+    color: #1a2b49;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #1a2b49;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #1a2b49;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+ }
+ 
+.hero_search :-ms-input-placeholder {  
+    color: #1a2b49;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+ }
+ .heroimg_text{
+     position: absolute;
+     top: 16vh;
+     vertical-align: baseline;
+     padding-left: 10px;
+     align-items: flex-start;
+     align-self: flex-start;
+     color: #fff;
+     font-size: 4.1rem;
+     font-weight: 700;
+     line-height: 4.25rem;;
+     width: 65%;
+ }
