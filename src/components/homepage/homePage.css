@@ -26,7 +26,7 @@ position: relative;
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.375rem;
-    padding: 9px 24px;
+    padding: 9px 23px;
     align-self: center;
  
  
@@ -48,7 +48,7 @@ textarea:focus, input:focus{
 position: absolute;
 
 width:30px;
-font-size :24px;
+font-size :23px;
 left: 7px;
 top:12px
 }
@@ -92,4 +92,15 @@ top:12px
      font-weight: 700;
      line-height: 4.25rem;;
      width: 65%;
+ }
+ .heda{
+     margin-left:40px;
+     font-size: 1.5rem;
+ }
+ .compart{
+     display:grid;
+     margin-left:40px;
+     margin-top: 40px;
+     grid-template-columns: 23% 23% 23% 23%;
+     grid-gap:2.5%
  }
