@@ -1,17 +1,47 @@
 .homeContainer{
-    height:70vh;
-    background-color:turquoise;
-    width:30vw;
+    height:400px;
+    background-color:white;
+    width:300px;
+    border: 1px solid grey;
+  
+   
+    border-radius:3px;
+   
     align-self: center;
+  margin-left: 19px;
  }
+ .homecard{
+  display:flex;
+  padding-left: 10px;
+  flex-direction: column;
+  height: 300px;
+ }
+ .homeContainer p{
+  font-size:1rem;
+  font-weight:400;
+  line-height :1.5em;
+ }
+ .homeContainer img{
+   height: 100px;
+   width: 100%;
+ }
+ .homeContainer button{
+   position: absolute;
+   color: white;
+   border: none;
+   border-radius: 3px;
+   padding:5px;
+   top: 90px;
+   left:45px;
+  }
 :root {
-    --star-size: 60px;
+    --star-size: 25px;
     --star-color: #fff;
     --star-background: #fc0;
   }
-  
+
   .Stars {
-    
+    --percent: calc(var(--rating) / 5 * 100%);
     display: inline-block;
     font-size: var(--star-size);
     font-family: Times; // make sure ★ appears correctly
@@ -25,4 +55,17 @@
       -webkit-text-fill-color: transparent;
     }
   }
-  
+ 
+.last{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  align-self: bottom;
+}
+.last p{
+  font-size:1.5rem;
+  font-weight:700;
+  line-height :1.1rem;
+  padding-bottom:5px
+}
