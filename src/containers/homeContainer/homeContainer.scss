@@ -2,7 +2,7 @@
     height:350px;
     background-color:white;
     width:271px;
-    border: 1px solid grey;
+    border: 1px solid #dcdfe4;
     position: relative;
     border-radius:3px;
    
@@ -49,7 +49,7 @@
    left:35px;
   }
 :root {
-    --star-size: 25px;
+    --star-size: 20px;
     --star-color: rgb(243, 222, 222);
     --star-background: #fc0;
   }
@@ -80,7 +80,7 @@
   justify-content: space-between;
 }
 .last p{
-  font-size:1.5rem;
+  font-size:1.3rem;
   font-weight:700;
 }
 #homecarddet{
