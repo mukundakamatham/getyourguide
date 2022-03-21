@@ -4,7 +4,7 @@
     width:271px;
     border: 1px solid #dcdfe4;
     position: relative;
-    border-radius:3px;
+    border-radius:6px;
    
     align-self: center;
     
@@ -32,6 +32,7 @@
    width: 271px;
    overflow: hidden;
    align-items: center;
+   border-radius:6px 6px 0px 0px ;
    transition: transform .2s;
  }
 .homeContainer img:hover {
@@ -80,7 +81,7 @@
   justify-content: space-between;
 }
 .last p{
-  font-size:1.3rem;
+  font-size:1.1rem;
   font-weight:700;
 }
 #homecarddet{
@@ -90,4 +91,11 @@
 }
 #homecarddet p{
   margin-bottom:5px
+}
+#icon_heart{
+  position: absolute;
+  top:12px;right:15px;
+  color:white;
+ font-size:24px
+
 }

@@ -1,5 +1,5 @@
  export const data=[{
-    img:'https://cdn.getyourguide.com/img/mic/crop-tour-277-a161e9a60b0847f3.jpeg/wide_320_uncropped_q50.webp',
+    img:'https://cdn.getyourguide.com/img/mic/crop-tour-277-5c050167dc978.jpeg/wide_320_uncropped_q50.webp',
     symbol:"",
     header:"From Lasvegas: Grand canyon tour with helicopter with champane",
     pickup:true,
@@ -11,7 +11,7 @@
     skipTheline:false,
     price:"$234",
 },{
-    img:'https://cdn.getyourguide.com/img/mic/crop-tour-277-a161e9a60b0847f3.jpeg/wide_320_uncropped_q50.webp',
+    img:'https://cdn.getyourguide.com/img/mic/crop-tour-277-5f044ab13139b.jpeg/wide_320_uncropped_q50.webp',
     symbol:"",
     header:"From Lasvegas: Grand canyon tour with helicopter with champane",
     pickup:true,
@@ -23,17 +23,17 @@
     skipTheline:false,
     price:"$233",
 },{
-    img:'https://cdn.getyourguide.com/img/mic/crop-tour-277-a161e9a60b0847f3.jpeg/wide_320_uncropped_q50.webp',
+    img:'https://cdn.getyourguide.com/img/mic/crop-tour-277-60562de565d7b.jpeg/wide_320_uncropped_q50.webp',
     symbol:"",
     header:"From Lasvegas: Grand canyon tour with helicopter with champane",
     pickup:true,
     duration:"4 hours",
-    stars:"2.5",
+    stars:"4.9",
     reviews:"100",
     button:"Adventure",
-    buttonColour:'#1593FF',
+    buttonColour:'#FF7083',
     skipTheline:false,
-    price:"$294",
+    price:"$234",
 },{
     img:'https://cdn.getyourguide.com/img/mic/crop-tour-277-a161e9a60b0847f3.jpeg/wide_320_uncropped_q50.webp',
     symbol:"",

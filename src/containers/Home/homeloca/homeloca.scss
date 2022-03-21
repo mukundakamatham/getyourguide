@@ -1,0 +1,146 @@
+:root, :root[data-theme=light] {
+    --background-primary: #fff;
+    --background-secondary: #ebeef1;
+    --surface-primary: #fff;
+    --surface-secondary: #ebeef1;
+    --surface-critical-weak: #ffe8ed;
+    --surface-critical-strong: #c72a3d;
+    --surface-warning: #ffe9e3;
+    --surface-highlight: #e1f0ff;
+    --surface-success-weak: #d1f6e2;
+    --surface-success-strong: #007850;
+    --surface-gyg: #f53;
+    --surface-disabled: #ebeef1;
+    --surface-loader: #31343d;
+    --label-primary: #1a2b49;
+    --label-secondary: #63687a;
+    --label-tertiary: #858995;
+    --label-quaternary: #fff;
+    --label-critical: #c72a3d;
+    --label-warning: #a65200;
+    --label-success: #007850;
+    --label-gyg: #f53;
+    --label-on-color: #fff;
+    --interactive-primary: #0071eb;
+    --interactive-primary-hovered: #304c84;
+    --interactive-primary-pressed: #304c84;
+    --interactive-primary-disabled: #dcdfe4;
+    --interactive-secondary: #e1f0ff;
+    --interactive-secondary-hovered: #c7e2ff;
+    --interactive-secondary-pressed: #c7e2ff;
+    --interactive-secondary-disabled: #bfc7cf;
+    --interactive-tertiary: #1a2b49;
+    --interactive-tertiary-hovered: #1e335a;
+    --interactive-tertiary-pressed: #1e335a;
+    --interactive-tertiary-disabled: #81beff;
+    --interactive-quaternary: #fff;
+    --interactive-quaternary-hovered: #dcdfe4;
+    --interactive-quaternary-pressed: #dcdfe4;
+    --interactive-quaternary-disabled: #bfc7cf;
+    --interactive-critical: #c72a3d;
+    --interactive-critical-hovered: #951d2b;
+    --interactive-critical-pressed: #951d2b;
+    --interactive-critical-disabled: #dcdfe4;
+    --on-interactive-primary: #fff;
+    --on-interactive-secondary: #0071eb;
+    --on-interactive-tertiary: #fff;
+    --on-interactive-quaternary: #1a2b49;
+    --on-interactive-critical: #fff;
+    --on-interactive-disabled: #858995;
+    --border-primary: #dcdfe4;
+    --border-primary-hovered: #0071eb;
+    --border-primary-pressed: #0071eb;
+    --border-primary-focused: #0071eb;
+    --border-primary-error: #c72a3d;
+    --border-primary-disabled: #ebeef1;
+    --border-secondary: #ebeef1;
+    --separator-primary: #ebeef1;
+    --separator-secondary: #dcdfe4;
+    --decorative-guiding-red: #f53;
+    --decorative-poolside-blue: #81beff;
+    --decorative-plant-green: #a1d55d;
+    --decorative-flamingo-pink: #f4cdd7;
+    --decorative-basking-yellow: #ffd938;
+    --decorative-midnight-blue: #1a2b49;
+    --decorative-badge-blue: #1593ff;
+    --decorative-badge-brown: #925a49;
+    --decorative-badge-dark-blue: #1e2c48;
+    --decorative-badge-dark-orange: #ed5f40;
+    --decorative-badge-green: #5dc679;
+    --decorative-badge-orange: #ff8e42;
+    --decorative-badge-pink: #ff7083;
+    --decorative-badge-purple: #391f5b;
+    --decorative-badge-teal: #255a60;
+    --decorative-badge-yellow: #f7c744;
+    --supportive-transparent: transparent;
+    --supportive-over-view-20: rgba(26,43,73,0.2);
+    --supportive-over-view-50: rgba(26,43,73,0.5);
+    --supportive-over-image-20: rgba(25,27,32,0.2);
+    --supportive-over-image-50: rgba(25,27,32,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#homeloc{
+   height: 300px;
+   width: 100%;
+   border-radius:6px;
+   position :relative;
+   border: 1px solid #ebeef1;
+   overflow:hidden;
+}
+#homeloc >div{
+    height: 230px;
+    width: 100%;
+    overflow:hidden;
+    border-radius:6px 6px 0px 0px;
+}
+#homeloc img{
+    align-items: center;
+   
+    width: 100%;
+    border-radius:6px 6px 0px 0px;
+}
+#homelocs{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-gap: 2%;
+}
+#homeloc button{
+//     position: absolute;
+//     top: 30px;
+    border: 1px solid #dcdfe402;
+//     border-radius: 8px;
+     box-sizing: border-box;
+//     height:30px;
+//    min-width: 70px;
+//     padding :4px 16px 4px 16px;
+//     color: #1a2b49;
+//     background-color: #fff;
+//     display: block;
+background: var(--surface-primary);
+border-radius: 4px;
+color: var(--label-primary);
+left: 16px;
+padding: 4px 16px;
+position: absolute;
+top: 16px;
+   
+}
+
+#homeloc p{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-left: 20px;
+    margin-top: 18px;
+}

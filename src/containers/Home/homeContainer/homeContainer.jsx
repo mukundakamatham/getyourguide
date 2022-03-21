@@ -6,8 +6,9 @@ export const HomeCard=({data})=>{
     return (
         <div className="homeContainer">
          <div><img src={data.img} alt=""/></div> 
+         <i class="fa fa-heart-o" id="icon_heart" ></i>
          <div className="homecard">
-        <h3>{data.header}</h3>
+        <h4>{data.header}</h4>
          <div id="homecarddet">{data.pickup?<p>Pickup available</p>:null}
          {data.duration.length>0?<p>Estimated duration {data.duration}</p>:null}
          {data.skipTheline?<p>skip the line available</p>:null}

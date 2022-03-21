@@ -1,0 +1,28 @@
+.usp-card__content{
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    margin-bottom: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+.usp-grid-container .usp-card__content-desc[data-v-33e1277a] {
+    font-size: .875rem;
+    font-weight: 400;
+    margin-top: 5px;
+    line-height: 1.25rem;
+}
+.usp-grid-container .usp-card[data-v-33e1277a] {
+    display: flex;
+}
+.usp-grid-container[data-v-33e1277a] {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 56px;
+}
+.usp-grid-container .usp-card__icon[data-v-33e1277a] {
+    border-radius: 8px;
+    height: 64px;
+    margin-right: 12px;
+    width: 64px;
+}

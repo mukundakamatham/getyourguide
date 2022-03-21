@@ -1,7 +1,12 @@
 import "./homePage.css";
 import React from 'react'
 import {data }from './data'
-import {HomeCard} from "../../containers/homeContainer/homeContainer"
+import {HomeCard} from "../../containers/Home/homeContainer/homeContainer"
+import {HomeCourousal} from "../../containers/Home/homeCourousal/homeCourousal"
+import {HomeCities} from "../../containers/Home/homeCities/homeCities";
+import {HomeData} from "../../containers/Home/homeCitiesData/homeData";
+import {HomeLoc} from  "../../containers/Home/homeloca/homeloca";
+import {HomeYou} from "../../containers/Home/homeYOU/homeYou"
 export const HomePage=()=>{
 
 
@@ -23,6 +28,32 @@ export const HomePage=()=>{
         
       
         </div>
+        <div className="heda"><h1>Our favorite experiences worldwide</h1></div>
+        <div className="compartt">
+      
+        <HomeCourousal/>
+      
+        </div>
+        <div className="heda"><h1>Get beneath the surface of these destinations</h1></div>
+        <div className="compartt">
+      
+        <HomeCities/>
+      
+        </div>
+        <div className="compartt">
+        <HomeData/>
+        </div>
+        <div className="heda"><h1>Get inspired for your next trip</h1></div>
+        <div className="compartt">
+      
+        <HomeLoc/>
+      
+        </div>
+        <div className="compartt">
+      
+      <HomeYou/>
+    
+      </div>
         </>
     )
 }
