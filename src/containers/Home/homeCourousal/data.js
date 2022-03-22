@@ -64,7 +64,7 @@
     header:"From Lasvegas: Grand canyon tour with helicopter with champane",
     pickup:true,
     duration:"4 hours",
-    stars:"4.2",
+    stars:"3.2",
     reviews:"100",
     button:"Adventure",
     buttonColour:'teal',

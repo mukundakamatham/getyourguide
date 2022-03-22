@@ -1,6 +1,8 @@
 #homeYou h2{
-    font-size: 2.25rem;
-    line-height: 2.875rem;
+    font-size: 2.15rem;
+    line-height: 3rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
 }
 #homeYou p{
     font-size: 1.15rem;
@@ -11,7 +13,7 @@
 }
 #homeYou{
     display:grid;
-    grid-template-columns: 38% 57%;
+    grid-template-columns: 43% 55%;
     grid-gap: 2%;
 }
 #homeYou iframe {

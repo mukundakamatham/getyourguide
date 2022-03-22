@@ -31,7 +31,7 @@
     stars:"4.9",
     reviews:"100",
     button:"Adventure",
-    buttonColour:'#FF7083',
+    buttonColour:'#1593FF',
     skipTheline:false,
     price:"$234",
 },{

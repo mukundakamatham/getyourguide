@@ -6,7 +6,10 @@ import {HomeCourousal} from "../../containers/Home/homeCourousal/homeCourousal"
 import {HomeCities} from "../../containers/Home/homeCities/homeCities";
 import {HomeData} from "../../containers/Home/homeCitiesData/homeData";
 import {HomeLoc} from  "../../containers/Home/homeloca/homeloca";
-import {HomeYou} from "../../containers/Home/homeYOU/homeYou"
+import {HomeYou} from "../../containers/Home/homeYOU/homeYou";
+import {HomeMail} from "../../containers/Home/homeMail/homeMail";
+import {Homeplaces} from "../../containers/Home/homeplaces/homeplaces";
+import {HomeList} from "../../containers/Home/homeList/homeList"
 export const HomePage=()=>{
 
 
@@ -54,6 +57,23 @@ export const HomePage=()=>{
       <HomeYou/>
     
       </div>
+      <div className="compartt">
+      
+      <HomeMail/>
+    
+      </div>
+      <div className="heda"><h1>Get inspired for your next trip</h1></div>
+        <div className="compartt">
+      
+        <Homeplaces/>
+      
+        </div>
+        <div className="heda"><h1>Top attraction categories</h1></div>
+        <div className="compartt">
+      
+        <HomeList/>
+      
+        </div>
         </>
     )
 }

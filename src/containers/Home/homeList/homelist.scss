@@ -1,0 +1,51 @@
+.top-attraction-categories ul[data-v-0c18006c] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.top-attraction-categories li[data-v-0c18006c] {
+    margin: 0 16px 16px 0;
+}
+.gyg-pill-counter {
+    display: flex;
+}
+.gyg-pill-counter a {
+    display: flex;
+    text-decoration: none;
+}
+.gyg-pill-counter__count {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 4px 12px;
+    text-align: center;
+}
+
+.gyg-pill-counter:hover span, .gyg-pill-counter__count {
+    background-color: var(--interactive-tertiary);
+    color: var(--on-interactive-tertiary);
+}
+
+.gyg-pill-counter__label {
+    border: 2px solid var(--interactive-tertiary);
+    border-left: none;
+    color: var(--label-primary);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    max-width: 304px;
+    overflow: hidden;
+    padding: 4px 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.top-attraction-categories__title[data-v-0c18006c] {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+}
+
+.top-attraction-categories__title[data-v-0c18006c] {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 24px;
+}

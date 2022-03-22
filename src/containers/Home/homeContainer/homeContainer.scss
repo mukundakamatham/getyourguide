@@ -12,6 +12,7 @@
  .homecard{
   display:flex;
   margin: 10px;
+  margin-top: 20px;
   justify-content:space-between;
   flex-direction: column;
   height: 250px;
@@ -19,6 +20,7 @@
  }
  .homeContainer p{
   font-size:1rem;
+
   font-weight:400;
  
  }
@@ -51,7 +53,7 @@
   }
 :root {
     --star-size: 20px;
-    --star-color: rgb(243, 222, 222);
+    --star-color: #EBEEF1;
     --star-background: #fc0;
   }
 
